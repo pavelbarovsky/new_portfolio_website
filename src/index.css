@@ -1,0 +1,37 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+@font-face {
+    font-family: "Undertale-Battle-Font"; 
+    src: url("../fonts/Undertale-Battle-Font.ttf"); 
+} 
+
+body {
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+*  {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    user-select: none;
+}
+
+.Titleh2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}

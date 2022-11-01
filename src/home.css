@@ -1,0 +1,84 @@
+#home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+
+}
+
+
+.homecardWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.homecards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 0% 10%;
+    background-color: #0c0c0c;  
+    margin: 50px;
+    width: 200%;
+    height: 400px;
+
+}
+
+
+
+.homeinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.homeinfo h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #91e3a6;
+}
+
+.homebutton {
+    float: right;
+    display: inline;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 70px;
+    line-height: 70px;
+    font-size: 50px;
+    margin-top: 50px;
+    transition: all 0.2s ease-in;
+    font-weight: 100;
+    color:#91e3a6;
+}
+
+.homebutton:hover {
+    transition: all 0.2s ease-in;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.homeText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    font-size: 20px;
+    max-height: 2000px;
+    margin-top: 50px;
+    margin-bottom: 350px;
+}

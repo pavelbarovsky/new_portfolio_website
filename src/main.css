@@ -1,0 +1,41 @@
+main {
+    background-image: url(../image/wallpaper.png);
+    background-size: cover; /*полное заполнение сайта фотографией*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 100%; /*ширина*/
+    height: 100vh; /*высота без учета контента*/
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.title h1 {
+    font-family: "Undertale-Battle-Font";
+    font-size: clamp(16px, 12vw, 70px);
+    text-shadow: 1px 1px 1px #000;
+}
+
+.title p {
+    font-family: "Undertale-Battle-Font";
+    color: #000;
+    font-size: 20px;
+    
+}

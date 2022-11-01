@@ -1,0 +1,48 @@
+#about {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    font-weight: 700;
+    margin-bottom: 350px;
+    height: 2400px;
+}
+
+
+.logotypes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-right: 50px;
+    margin-top: 50px;
+    box-sizing: content-box;
+    background-color: #0c0c0c;
+    width: 50%;
+    height: 50%;
+    padding-top: 50px;
+}
+
+.logotypes img {
+    width: 20%;
+    max-width: 120px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.aboutItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.aboutItems p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
